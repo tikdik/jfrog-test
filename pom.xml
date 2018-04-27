@@ -105,13 +105,13 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>Souvik-Laptop-releases</name>
-			<url>http://localhost:8081/artifactory/jfrog-test-release</url>
+			<name>example-repo-local/</name>
+			<url>http://172.30.144.52:8081/artifactory/example-repo-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>Souvik-Laptop-snapshots</name>
-			<url>http://localhost:8081/artifactory/jfrog-test-snapshot</url>
+			<name>example-repo-local/</name>
+			<url>http://172.30.144.52:8081/artifactory/example-repo-local/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
